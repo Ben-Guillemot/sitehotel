@@ -1,0 +1,133 @@
+.navbar-brand img{
+    max-height: 40px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+header .head{
+    min-height: 70vh;
+    color: white;
+    background-image: url(../img/vuehotel.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+header .formReservation{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+header h2{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 50px;
+}
+
+header .slogan{
+    display: flex;
+    min-height: 70vh;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) { 
+    header .slogan{
+        display: none;
+    } ;
+}
+
+.tete{
+    display: flex;
+}
+
+.media-body{
+    margin-left: 1em;
+}
+#presentation .media span{
+    color: #dab8ce;
+    font-size: 3rem;
+    width: 100px;
+    align-items: center;
+}
+
+#presentation .media{
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+#presentation .media:hover{
+    background-color: rgba(202, 201, 201, 0.9);
+    
+}
+
+.fondChambre{
+    background-image: url(../img/interieur2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: calc(100vh - 65px);
+}
+
+.avisClient{
+    min-height: calc(100vh - 65px);
+    background-color: #d3dae4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avisClient span{
+    font-size: 5rem;
+    color: #17a2b8;
+}
+
+.avisClient h5{
+    font-size: 2rem;
+    color: #888;
+}
+
+#contact{
+    background-image: url(../img/vuehotel.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contact .row{
+    min-height: calc(100vh - 65px);
+}
+
+.formContact{
+    background-color: rgba(255, 255, 255, .7);
+    padding: 2rem 1rem;
+}
+footer{
+    background-color: rgba(0,0,0,.8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1,5rem;
+}
+
+footer a{
+    color: #999;
+    font-size: 2rem;
+    transition: all .2s ease-in-out;
+
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+
+}
